@@ -39,6 +39,7 @@ const displayAverageSalary = function(employeesArray) {
   })}`);
 }
 
+// Chooses random integer that is less than max
 const getRandomInt = function(max) {
   return Math.floor(Math.random() * max);
 }
