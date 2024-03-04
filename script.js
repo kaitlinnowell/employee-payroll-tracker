@@ -23,7 +23,6 @@ const collectEmployees = function() {
     newEntries.push(newEntry);
     addMore = confirm("Do you want to add another employee?");
   }
-  console.log(newEntries);
   return newEntries;
 }
 
@@ -46,8 +45,8 @@ const getRandomInt = function(max) {
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
-  let employeeNumber = getRandomInt(employeesArray.length)
-  console.log(`Congratulations to ${employeesArray[employeeNumber].firstName} ${employeesArray[employeeNumber].lastName}, our random drawing winner!`)
+  let employeeNumber = getRandomInt(employeesArray.length);
+  console.log(`Congratulations to ${employeesArray[employeeNumber].firstName} ${employeesArray[employeeNumber].lastName}, our random drawing winner!`);
 }
 
 /*
